@@ -35,6 +35,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+
+  # Use rspec for testing
+  gem 'rspec-rails'
+
+  # Use faker for dummy data generation
+  gem 'faker'
 end
 
 group :development do
