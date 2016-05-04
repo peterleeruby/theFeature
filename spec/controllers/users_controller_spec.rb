@@ -9,11 +9,13 @@ RSpec.describe UsersController, type: :controller do
     end
   end
 
+=begin
   describe "GET #import" do
     it "returns http success" do
-      get :import
-      expect(response).to have_http_status(:success)
+      #get :import
+      pending "add some examples to (or delete) #{__FILE__}"
     end
   end
+=end
 
 end

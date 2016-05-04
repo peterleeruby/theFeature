@@ -57,4 +57,11 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  resources :users do
+    collection { post :import }
+  end
+
+  root 'users#index'
+
 end
